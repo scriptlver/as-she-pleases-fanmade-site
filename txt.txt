@@ -1,0 +1,303 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[fanmade] - as she pleases by madison beer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <style>
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .heart-icon {
+            width: 50px; 
+            height: 50px;
+            cursor: pointer;
+        }
+        .fanmade {
+            font-family: 'Sacramento', cursive;
+            font-size: 1.2rem;
+            color: white;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            z-index: 10;
+            letter-spacing: 2.5px; 
+            opacity: 0.6;
+        }
+        .info-section {
+            background-color: #000000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .info-section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        #album h2 {
+            font-family: 'Sacramento', cursive; 
+            font-size: 6rem;
+            text-align: center;
+            margin-top: 20px;
+            color: white;
+        }
+         .navbar {
+            background: rgba(0, 0, 0, 0.7); 
+            backdrop-filter: blur(5px); 
+        }
+        .navbar a {
+            transition: color 0.3s;
+        }
+        .navbar a:hover {
+            color: #64b5f6;
+        }
+        .info-section p {
+            font-size: 1rem;
+        }
+        .album-title {
+            font-family: 'Sacramento', cursive; 
+            font-size: 7rem;
+            text-align: center;
+            margin-top: 20px;
+            color: white;
+        }
+        .album-subtitle {
+            font-family: 'Libre Baskerville', serif; 
+            font-size: 1.5rem;
+            text-align: center;
+            color: white;
+            margin-top: -20px;
+        }
+        .mt-4.text-center p {
+            font-family: 'Libre Baskerville', serif;
+            font-size: 23px;
+        }
+    </style>
+</head>
+<body class="text-white font-sans">
+    <video autoplay loop muted class="video-background">
+        <source src="video.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos em HTML5.
+    </video>
+    <nav class="navbar p-4">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+            <div class="flex space-x-6">
+                <a href="#cover" class="text-white">cover</a>
+                <a href="#story" class="text-white">as she pleases story</a>
+                <a href="#tracklist" class="text-white">tracklist</a>
+                <a href="#singles" class="text-white">singles</a>
+                <a href="#clips" class="text-white">clips</a>
+                <a href="#photos" class="text-white">bts</a>
+                <a href="#tour" class="text-white">tour</a>
+                <a href="#about her" class="text-white">about her</a>
+                <a href="#socials" class="text-white">socials</a>
+                <a href="#references" class="text-white">references</a>
+            </div>
+            <div class="ml-auto">
+                <img src="heart.png" alt="Heart" class="heart-icon" title="this site is not official, it was created for studies!">
+            </div>
+        </div>
+    </nav>
+    <div class="flex justify-center mt-8 space-x-8">
+        <img src="1.jpg" alt="Imagem 1" class="rounded-lg shadow-lg w-1/4">
+        <img src="2.jpg" alt="Imagem 2" class="rounded-lg shadow-lg w-1/4">
+        <img src="3.jpg" alt="Imagem 3" class="rounded-lg shadow-lg w-1/4">
+    </div>
+
+    <div class="album-title">
+        As She Pleases
+    </div>
+    <div class="album-subtitle" style="margin-bottom: 125px;">
+        madison beer's debut EP, released in 2018.
+    </div>
+
+<div class="mt-8" id="cover">
+    <h2 class="text-8xl font-light mb-2 text-center" style="font-family: 'Sacramento', cursive;">Cover Artwork</h2>
+    <div class="flex justify-center space-x-8">
+        <img src="madison.png" alt="Capa do Álbum" class="rounded-lg shadow-lg w-80 h-80 object-cover">
+        <img src="back.jpg" alt="Parte de trás do Álbum" class="rounded-lg shadow-lg w-80 h-80 object-cover">
+    </div>
+    <div class="mt-4 text-center">
+        <p><strong>Release Date</strong><br>february 2, 2018</p>
+        <p><strong>Recorded</strong><br>2013 - 2018</p>
+        <p><strong>Genre</strong><br>pop & contemporary R&B</p>
+        <p><strong>Length</strong><br>21:34</p>
+    </div>
+</div>
+<div class="mt-20 text-center" id="story">
+    <h2 class="text-8xl font-light mb-4 text-center" style="font-family: 'Sacramento', cursive;">Story</h2>
+    <p class="text-gray-400 max-w-4xl mx-auto text-xl" style="font-family: 'Libre Baskerville', serif;">madison was only 12 when she started recording “as she pleases”. the project took six years to complete and was initially to be released as an album on island records. she released the singles “melodies” and “unbreakable”, which featured a youthful pop style and were made for the album. “i did at least 100 songs, and people said, 'let's put out an album,' but i didn't like the tracks anymore,” she said. eventually, madison chose to pursue an independent path, seeking greater creative control over her music.</p>
+</div>
+
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+<div class="mt-20" id="tracklist">
+    <h2 class="text-8xl font-light mb-4 font-[Sacramento] text-center text-white">Tracklist</h2>
+    <div class="flex flex-wrap justify-center gap-8 text-white text-4xl font-serif">
+        <span>Dead</span>
+        <span>Fools</span>
+        <span>HeartLess</span>
+        <span>Tyler Durden</span>
+        <span>Home With You</span>
+        <span>Teenager in Love</span>
+        <span>Say It to My Face</span>
+    </div>
+</div>
+
+    <div class="mt-20" id="singles">
+        <div class="flex justify-center mt-20 space-x-8">
+            <img src="mads7.jpg" alt="Imagem 1" class="rounded-lg shadow-lg w-1/4">
+            <img src="mads8.jpg" alt="Imagem 2" class="rounded-lg shadow-lg w-1/4">
+            <img src="mads9.jpg" alt="Imagem 3" class="rounded-lg shadow-lg w-1/4">
+        </div>
+        <h2 class="text-8xl font-light mb-8 font-[Sacramento] text-center text-white mt-20">Singles</h2>
+        <div class="flex flex-wrap justify-center gap-8 text-white text-4xl font-serif">
+            <span>Dead</span>
+            <span>Say It To My Face</span>
+            <span>Home With You</span>
+        </div>
+        <div class="mt-20" id="clips">
+            <h2 class="text-8xl font-light mb-7 text-center" style="font-family: 'Sacramento', cursive;">Clips</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                <div class="flex justify-center">
+                    <a href="https://www.youtube.com/watch?v=_564q9Bwjuc" target="_blank">
+                        <img src="thumb_dead.jpg" alt="Dead - Vídeo Clipe" class="rounded-lg shadow-lg w-full h-full object-cover cursor-pointer">
+                    </a>
+                </div>
+                <div class="flex justify-center">
+                    <a href="https://youtu.be/UCyl9GBlM-M?si=vfqTKfDHYaTHMItR" target="_blank">
+                        <img src="thumb_say.jpg" alt="Say It To My Face - Vídeo Clipe" class="rounded-lg shadow-lg w-full h-full object-cover cursor-pointer">
+                    </a>
+                </div>
+                <div class="flex justify-center">
+                    <a href="https://youtu.be/BMzqMgOLbSs?si=Q5je8SZPOdSGp3SQ" target="_blank">
+                        <img src="thumb_home.jpg" alt="Home With You - Vídeo Clipe" class="rounded-lg shadow-lg w-full h-full object-cover cursor-pointer">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-8" id="photos">
+            <h2 class="text-8xl font-light mb-2 text-center" style="font-family: 'Sacramento', cursive;">Behind The Scenes</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                <div class="flex justify-center">
+                    <img src="mads.png" alt="mads" class="rounded-lg shadow-lg w-full h-full object-cover">
+                </div>
+                <div class="flex justify-center">
+                    <img src="mads2.png" alt="Mads2" class="rounded-lg shadow-lg w-full h-full object-cover">
+                </div>
+                <div class="flex justify-center">
+                    <img src="mads6.png" alt="Mads3" class="rounded-lg shadow-lg w-full h-full object-cover">
+                </div>
+                <div class="flex justify-center">
+                    <img src="mads4.png" alt="Mads4" class="rounded-lg shadow-lg w-full h-full object-cover">
+                </div>
+                <div class="flex justify-center">
+                    <img src="mads5.png" alt="Mads5" class="rounded-lg shadow-lg w-full h-full object-cover">
+                </div>
+                <div class="flex justify-center">
+                    <img src="mads3.png" alt="Mads6" class="rounded-lg shadow-lg w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+        
+<div class="mt-8 text-center" id="tour">
+    <h2 class="text-8xl font-light mb-2" style="font-family: 'Sacramento', cursive;">Tour</h2>
+    <div class="flex justify-center">
+        <div class="flex space-x-6 max-w-5xl">
+            <div class="flex-1">
+                <h3 class="text-lg font-semibold mb-2" style="font-family: 'Libre Baskerville', serif;">Europe</h3>
+                <ul class="list-disc list-inside text-gray-300" style="font-family: 'Libre Baskerville', serif;">
+                    <li><strong>March 11</strong> - Milan, Italy - Dude Club</li>
+                    <li><strong>March 13</strong> - Berlin, Germany - Bi Nuu</li>
+                    <li><strong>March 14</strong> - Frankfurt, Germany - Zoom</li>
+                    <li><strong>March 16</strong> - Hamburg, Germany - Indra Club</li>
+                    <li><strong>March 17</strong> - Cologne, Germany - LUXOR</li>
+                    <li><strong>March 19</strong> - Brussels, Belgium - Botanique The Rotonde</li>
+                    <li><strong>March 20</strong> - Paris, France - Les Étoiles Theatre</li>
+                    <li><strong>March 22</strong> - Glasgow, England - ABC2</li>
+                    <li><strong>March 24</strong> - Manchester, England - Club Academy</li>
+                    <li><strong>March 25</strong> - London, England - O2 Academy Islington</li>
+                    <li><strong>March 27</strong> - Birmingham, England - O2 Institute 3</li>
+                    <li><strong>March 28</strong> - Nottingham, England - The Bodega Club</li>
+                    <li><strong>March 30</strong> - Belfast, Northern Ireland - Oh Yeah Music Centre</li>
+                    <li><strong>March 31</strong> - Dublin, Ireland - Academy Green Room</li>
+                    <li><strong>April 2</strong> - Amsterdam, Netherlands - Bitterzoet</li>
+                </ul>
+            </div>
+            <div class="flex-1">
+                <h3 class="text-lg font-semibold mb-2" style="font-family: 'Libre Baskerville', serif;">North America</h3>
+                <ul class="list-disc list-inside text-gray-300" style="font-family: 'Libre Baskerville', serif;">
+                    <li><strong>April 26</strong> - Los Angeles, United States - Belasco Theatre</li>
+                    <li><strong>April 27</strong> - San Diego, United States - House of Blues</li>
+                    <li><strong>April 29</strong> - Phoenix, United States - Crescent Ballroom</li>
+                    <li><strong>May 1</strong> - Denver, United States - Summit Music Hall</li>
+                    <li><strong>May 4</strong> - Austin, United States - Parish</li>
+                    <li><strong>May 7</strong> - St. Louis, United States - Delmar Hall</li>
+                    <li><strong>May 8</strong> - Chicago, United States - Bottom Lounge</li>
+                    <li><strong>May 10</strong> - Cleveland, United States - Cambridge Room</li>
+                    <li><strong>May 12</strong> - Detroit, United States - Saint Andrews</li>
+                    <li><strong>May 13</strong> - Toronto, Canada - Velvet Underground</li>
+                    <li><strong>May 15</strong> - Boston, United States - Paradise Rock Club</li>
+                    <li><strong>May 16</strong> - Philadelphia, United States - Foundry at the Fillmore</li>
+                    <li><strong>May 17</strong> - New York, United States - Gramercy Theatre</li>
+                    <li><strong>May 20</strong> - Washington, D.C., United States - Union Stage</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="mt-20" id="about her">
+            <h2 class="text-8xl font-light mb-4 text-center" style="font-family: 'Sacramento', cursive;">About Her</h2>
+            <p class="text-gray-400 max-w-4xl mx-auto text-xl" style="font-family: 'Libre Baskerville', serif;">madison beer is an american singer and songwriter born on march 5, 1999, in jericho, new york. madison released her debut EP, "as she pleases," in 2018, and her first studio album, "life support," in 2021. she released her second studio album, "silence between songs," in 2023, which was nominated for a grammy award.</p>
+        </div>
+<div class="mt-20 flex flex-col items-center text-center gap-16 md:gap-20">
+    <div class="flex flex-col md:flex-row justify-center items-start gap-20 w-full max-w-4xl">
+        <div id="socials" class="flex-1">
+            <h2 class="text-6xl font-light font-[Sacramento] text-white">Her Socials</h2>
+            <div class="flex flex-row justify-center items-center gap-6 text-white text-3xl font-serif mt-4">
+                <a href="https://www.instagram.com/madisonbeer/" target="_blank">
+                    <img src="instagram.png" alt="Instagram" class="w-6 h-6 opacity-80 hover:opacity-50 transition">
+                </a>
+                <a href="https://www.twitter.com/madisonbeer" target="_blank">
+                    <img src="x.png" alt="Twitter" class="w-6 h-6 opacity-80 hover:opacity-50 transition">
+                </a>
+                <a href="https://www.youtube.com/channel/UCAQXk6Nso4S7kw9lHpbGSoA" target="_blank">
+                    <img src="youtube.png" alt="YouTube" class="w-8 h-8 opacity-80 hover:opacity-50 transition">
+                </a>
+            </div>
+        </div>
+        <div id="references" class="flex-1">
+            <h2 class="text-6xl font-light font-[Sacramento] text-white">References</h2>
+            <div class="text-white flex flex-col items-center space-y-2 mt-4">
+                <a href="https://madisonbeer.fandom.com/wiki/As_She_Pleases" target="_blank" class="hover:text-blue-500" style="font-family: 'Libre Baskerville', serif;">https://madisonbeer.fandom.com/wiki/As_She_Pleases</a>
+                <a href="https://www.instagram.com/p/BegfvXTBUXH/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D" target="_blank" class="hover:text-blue-500" style="font-family: 'Libre Baskerville', serif;">https://www.instagram.com/p/BegfvXTBUXH</a>
+                <a href="https://x.com/madisonbeer/status/949933964222853120" target="_blank" class="hover:text-blue-500" style="font-family: 'Libre Baskerville', serif;">https://x.com/madisonbeer/status/949933964222853120</a>
+                <a href="https://pt.wikipedia.org/wiki/As_She_Pleases" target="_blank" class="hover:text-blue-500" style="font-family: 'Libre Baskerville', serif;">https://pt.wikipedia.org/wiki/As_She_Pleases</a>
+            </div>
+        </div>
+    </div>
+</div>
+    <p class="fanmade">fanmade by scriptlver</p>
+  <div class="info-section">
+    <h2 class="text-xl font-semibold" style="font-family: 'Libre Baskerville', serif; font-weight: normal;">About That Site</h2>
+    <p style="font-family: 'Libre Baskerville', serif;">as a big madison fan, i made this site just for fun and study. <3</p>
+    <p style="font-family: 'Libre Baskerville', serif;">february, 2025</p>
+    <p style="font-family: 'Libre Baskerville', serif;">
+        <strong></strong>
+        <a href="https://github.com/scriptlver" target="_blank" class="text-white hover:text-blue-500 inline-block mr-4">github</a>
+        <a href="https://www.instagram.com/lavisbeirk/" target="_blank" class="text-white hover:text-blue-500 inline-block mr-4">instagram</a>
+        <a href="https://www.linkedin.com/in/lavinia-d-289973308/" target="_blank" class="text-white hover:text-blue-500 inline-block">linkedin</a>
+    </p>
+</div>
+</body>
