@@ -22,9 +22,9 @@ this was a very special project for me, where i was able to explore and improve 
 - github copilot
 
 ## 📸 preview
-![ ](screenshots/print1.png)
-![ ](screenshots/print2.png)
-![ ](screenshots/print3.png)
+![ ](print1.png)
+![ ](print2.png)
+![ ](print3.png)
 
 ## 📌 how to access
 you can check out the project by visiting: https://scriptlver.github.io/as-she-pleases-fanmade-site/
